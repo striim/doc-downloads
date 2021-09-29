@@ -1,0 +1,86 @@
+CREATE APPLICATION simple;
+
+CREATE source SimpleSource USING FileReader (
+  directory:'Samples',
+  wildcard:'simple.csv',
+  positionByEOF:false
+)
+PARSE USING DSVParser (
+  header:Yes,
+  trimquote:false
+) OUTPUT TO RawDataStream;
+
+CREATE TYPE FilteredDataType(
+  merchantId String KEY,
+  dateTime DateTime,
+  amount double,
+  zip String
+);
+CREATE STREAM FilteredDataStream OF FilteredDataType;
+
+CREATE CQ Raw2FilteredCQ
+INSERT INTO FilteredDataStream
+SELECT data[1],
+       TO_DATEF(data[4],'yyyyMMddHHmmss'),
+       TO_DOUBLE(data[7]),
+       data[9]
+  FROM RawDataStream;
+
+CREATE TYPE ZipCacheType(
+  zip String KEY,
+  city String,
+  state String,
+  latVal double,
+  longVal double
+);
+
+CREATE CACHE ZipCache using FileReader (
+  directory: 'Samples',
+  wildcard: 'zipdata.txt')
+PARSE USING DSVParser (
+  header: Yes,
+  columndelimiter: '\t',
+  trimquote:false
+) QUERY (keytomap:'zip') OF ZipCacheType;
+
+CREATE TYPE JoinedDataType(
+  merchantId String KEY,
+  zip String,
+  city String,
+  state String,
+  latVal double,
+  longVal double
+);
+CREATE STREAM JoinedDataStream OF JoinedDataType;
+
+CREATE CQ JoinDataCQ
+INSERT INTO JoinedDataStream
+SELECT  f.merchantId,
+        f.zip,
+        z.city,
+        z.state,
+        z.latVal,
+        z.longVal
+FROM FilteredDataStream f, ZipCache z
+WHERE f.zip = z.zip;
+
+CREATE JUMPING WINDOW FilteredDataWindow
+OVER FilteredDataStream KEEP 1 ROWS;
+ 
+CREATE WACTIONSTORE MapData
+CONTEXT OF JoinedDataType
+EVENT TYPES ( JoinedDataType KEY(merchantId) )
+PERSIST NONE USING();
+ 
+CREATE CQ PopulateMapDataCQ
+INSERT INTO MapData
+SELECT  f.merchantId,
+        f.zip,
+        z.city,
+        z.state,
+        z.latVal,
+        z.longVal
+FROM FilteredDataWindow f, ZipCache z
+WHERE f.zip = z.zip;
+
+END APPLICATION simple;
