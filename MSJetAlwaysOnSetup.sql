@@ -26,25 +26,39 @@
 USE [master] -- change this line to DB you have Stored Procedure CREATE and EXEC Permissions
 GO
 
-IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[MSJETLogRetentionAOG]') AND type in (N'P', N'PC'))
-BEGIN
-EXEC dbo.sp_executesql @statement = N'CREATE PROCEDURE [dbo].[MSJETLogRetentionAOG] AS'
-END
-GO
-ALTER PROCEDURE [dbo].[MSJETLogRetentionAOG]
-
---------------------------------------------------------------------------------------------------------------------------------------
--- Database name
-@dbName nvarchar(255) = N'master',
--- 3 days in minute granularity 
-@retentionminutes int = 4320 --(3 * 24 * 60) = 72 hours
---------------------------------------------------------------------------------------------------------------------------------------
-
+CREATE OR ALTER PROCEDURE [dbo].[sp_MSJETLogRetentionAOG]
+(
+	-- Database name
+	@dbName nvarchar(255) = N'master',
+	-- 3 days in minute granularity 
+	@retentionminutes int = 4320 --(3 * 24 * 60) = 72 hours
+)
 AS
 
 BEGIN
 	declare @isHealthy int
 	declare @formatTS varchar(128) = 'yyyy/MM/dd HH:mm:ss.fff' -- DO NOT CHANGE
+	declare @capture_job varchar(256)
+	declare @cleanup_job varchar(256)
+	declare @msgformat varchar(128)
+	declare @msg nvarchar(256)
+
+	set @capture_job = 'cdc.' + @dbName + '_capture'
+	set @cleanup_job = 'cdc.' + @dbName + '_cleanup'
+	set @msgformat = 'The cdc job ''%s'' must be stopped and disabled to manage the secondary truncation point with MSJet'
+
+	if exists (SELECT 1 test from msdb.dbo.sysjobs where name =  @capture_job and enabled = 1)
+	begin
+		set @msg = formatmessage(@msgformat, @capture_job);
+		THROW 60001, @msg, 1; 
+	end
+
+	if exists (SELECT 1 test from msdb.dbo.sysjobs where name =  @cleanup_job and enabled = 1)
+	begin
+		set @msg = formatmessage(@msgformat, @cleanup_job);
+		THROW 60002, @msg, 1;
+	end
+
 	select @isHealthy = count(*) from sys.availability_replicas ar
 	JOIN sys.dm_hadr_availability_replica_states ars 
 		ON ar.replica_id = ars.replica_id
@@ -64,13 +78,13 @@ BEGIN
 					on dhdrs.group_id = dhdr.group_id
 			where dhdrs.database_id = DB_ID(@dbName) and dhdrs.last_redone_time is not null
 
-			-- Set trunction time
+			-- Set truncation time
 			set @trunctime = dateadd(minute, -@retentionminutes, getdate())
 
 			print 'The redone last time : ' + CONVERT(varchar(20), @redone_last_time) 
 			print 'Truncation time : ' + CONVERT(varchar(20), @trunctime)   
 
-			-- Get the recvery checkpoint
+			-- Get the recovery checkpoint
 			declare @recovery_cp binary(10)
 			declare @end_time datetime
 			select top (1)
