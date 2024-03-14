@@ -3,8 +3,11 @@
 --------------------------------------------------------------------------------------------------------------------------------------
 --  Version history 
 
---  2024-02-14 - Initial revision 
+--  2024-03-13 -- Validate primary replica first
+--  2024-03-01 -- Added exception message when replicas are not available
+--  2024-02-28 -- CDC job validations
 --  2024-02-15 -- Added instructions and creation as a Store Procedure and Job
+--  2024-02-14 -- Initial revision 
 
 -- Usage instructions: 
 
@@ -13,7 +16,7 @@
 -- Step 2 : Create a SQL Agent Job to Execute this procedure on a 30 minute schedule
 -- Example Step in the SQL Agent Job:
 -- (as master DB) 
--- EXEC [dbo].[MSJETLogRetentionAOG]
+-- EXEC [dbo].[sp_MSJETLogRetentionAOG]
 -- @dbName = N'mstest',
 -- @retentionminutes = 4320
 
@@ -59,15 +62,15 @@ BEGIN
 		THROW 60002, @msg, 1;
 	end
 
-	select @isHealthy = count(*) from sys.availability_replicas ar
-	JOIN sys.dm_hadr_availability_replica_states ars 
-		ON ar.replica_id = ars.replica_id
-	JOIN sys.dm_hadr_database_replica_states rs 
-		ON ar.replica_id = rs.replica_id
-	where ars.group_id = ar.group_id and (rs.synchronization_health_desc != 'HEALTHY' or rs.synchronization_state_desc != 'SYNCHRONIZED')
-	if (@isHealthy = 0)
+	if sys.fn_hadr_is_primary_replica (@dbName) = 1   
 	begin
-		if sys.fn_hadr_is_primary_replica (@dbName) = 1   
+		select @isHealthy = count(*) from sys.availability_replicas ar
+		JOIN sys.dm_hadr_availability_replica_states ars 
+			ON ar.replica_id = ars.replica_id
+		JOIN sys.dm_hadr_database_replica_states rs 
+			ON ar.replica_id = rs.replica_id
+		where ars.group_id = ar.group_id and (rs.synchronization_health_desc != 'HEALTHY' or rs.synchronization_state_desc != 'SYNCHRONIZED')
+		if (@isHealthy = 0)
 		begin  
 			declare @redone_last_time datetime
 			declare @trunctime datetime
@@ -143,12 +146,13 @@ BEGIN
 		end
 		else 
 		begin
-			print 'The connection is not made with the primary replica.'
+			set @msg = 'All replicas are not in a healthy state. To execute this script, all replicas must be in a healthy state.';
+			THROW 60004, @msg, 1;
 		end
 	end
 	else 
-	begin
-		print 'All replicas are not in a healthy state. To execute this script, all replicas must be in a healthy state.'
+		begin
+		set @msg = 'The connection is not made with the primary replica.';
+		THROW 60003, @msg, 1;
 	end
-
 END
