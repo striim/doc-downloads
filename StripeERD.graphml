@@ -1,0 +1,3029 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+	<key for="node" id="nodegraph" yfiles.type="nodegraphics"/>
+	<key for="edge" id="edgegraph" yfiles.type="edgegraphics"/>
+	<graph edgedefault="directed" id="G">
+		<node id="entity0">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="2014" width="415.24" x="2979" y="20"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="345" x="0" y="4">Accounts</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="1964" width="345" x="2" y="31.66796875">Id
+BusinessType
+ChargesEnabled
+Country
+IsController
+ControllerType
+Created
+DefaultCurrency
+DetailsSubmitted
+Email
+ExternalAccountsAggregate
+FutureRequirementsAggregate
+PayoutsEnabled
+SettingsAggregate
+BusinessProfileSupportEmail
+BusinessProfileSupportPhone
+BusinessProfileSupportAddressCity
+BusinessProfileSupportAddressCountry
+BusinessProfileSupportAddressLine1
+BusinessProfileSupportAddressLine2
+BusinessProfileSupportAddressPostalCode
+BusinessProfileSupportAddressState
+BusinessProfileSupportUrl
+BusinessProfileProductDescription
+BusinessProfileMcc
+BusinessProfileMonthlyEstimatedRevenueAmount
+BusinessProfileMonthlyEstimatedRevenueCurrency
+BusinessProfileName
+BusinessProfileUrl
+TosAcceptanceDate
+TosAcceptanceIp
+TosAcceptanceServiceAgreement
+TosAcceptanceUserAgent
+TransferSchedule
+Type
+RequirementsAggregate
+TransfersEnabled
+MetadataAggregate
+Capabilities
+CompanyAddressCity
+CompanyAddressCountry
+CompanyAddressLine1
+CompanyAddressLine2
+CompanyAddressPostalCode
+CompanyAddressState
+CompanyDirectorsProvided
+CompanyExecutivesProvided
+CompanyExportLicenseId
+CompanyExportPurposeCode
+CompanyName
+CompanyOwnersProvided
+CompanyOwnershipDeclarationDate
+CompanyOwnershipDeclarationIp
+CompanyOwnershipDeclarationUserAgent
+CompanyPhone
+CompanyRegistrationNumber
+CompanyStructure
+CompanyTaxId
+CompanyVatId
+CompanyTaxIdProvided
+CompanyTaxIdRegistrar
+CompanyVatIdProvided
+CompanyVerificationDocumentBack
+CompanyVerificationDocumentFront
+IndividualId
+IndividualObject
+IndividualAccount
+IndividualAddressCity
+IndividualAddressCountry
+IndividualAddressLine1
+IndividualAddressLine2
+IndividualAddressPostalCode
+IndividualAddressState
+IndividualDOBDay
+IndividualDOBMonth
+IndividualDOBYear
+IndividualEmail
+IndividualFirstName
+IndividualFullNameAliases
+IndividualGender
+IndividualIdNumber
+IndividualIdNumberSecondary
+IndividualLastName
+IndividualMaidenName
+IndividualMetadataAggregate
+IndividualNationality
+IndividualPhone
+IndividualPoliticalExposure
+IndividualRegisteredAddressCity
+IndividualRegisteredAddressCountry
+IndividualRegisteredAddressLine1
+IndividualRegisteredAddressLine2
+IndividualRegisteredAddressPostalCode
+IndividualRegisteredAddressState
+IndividualSSNLast4
+IndividualVerificationAdditionalDocumentBack
+IndividualVerificationAdditionalDocumentFront
+IndividualVerificationDocumentBack
+IndividualVerificationDocumentFront						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity1">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="394" width="218.68" x="2114" y="6041"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="183" x="0" y="4">BankAccounts</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="324" width="183" x="2" y="31.66796875">Id
+CustomerId
+Account
+AccountHolderName
+AccountHolderType
+AccountNumber
+BankName
+Country
+Currency
+DefaultForCurrency
+Fingerprint
+Last4
+RoutingNumber
+Status
+AccountType
+MetadataAggregate
+Object
+AvailablePayoutMethods						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity2">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="654" width="218.68" x="322" y="5388"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="183" x="0" y="4">Cards</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="584" width="183" x="2" y="31.66796875">Id
+CustomerId
+ExpMonth
+ExpYear
+Currency
+Account
+Token
+AddressCity
+AddressCountry
+AddressLine1
+AddressLine1Check
+AddressLine2
+AddressState
+AddressZip
+AddressZipCheck
+Brand
+Country
+CvcCheck
+Cvc
+DefaultForCurrency
+Number
+Fingerprint
+Funding
+Last4
+Name
+Recipient
+TokenizationMethod
+Metadata
+Object
+AvailablePayoutMethods
+DynamicLast4						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity3">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="1394" width="287.64" x="1222" y="5407"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="239" x="0" y="4">Charges</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="1344" width="239" x="2" y="31.66796875">Id
+Amount
+Currency
+CustomerId
+AmountRefunded
+ApplicationFee
+ApplicationFeeAmount
+BalanceTransaction
+BillingDetailsAddressCity
+BillingDetailsAddressCountry
+BillingDetailsAddressLine1
+BillingDetailsAddressLine2
+BillingDetailsAddressPostalCode
+BillingDetailsAddressState
+BillingDetailsEmail
+BillingDetailsName
+BillingDetailsPhone
+Captured
+CalculatedStatementDescriptor
+Created
+Description
+Destination
+Disputed
+DisputeId
+FailureCode
+FailureMessage
+FraudDetailsStripeReport
+FraudDetailsUserReport
+Invoice
+Livemode
+MetadataAggregate
+Order
+OutcomeAggregate
+Paid
+PaymentIntent
+PaymentMethod
+PaymentMethodDetailsAggregate
+ReceiptEmail
+ReceiptNumber
+ReceiptURL
+Refunded
+RefundsAggregate
+Review
+ShippingAddressCity
+ShippingAddressCountry
+ShippingAddressLine1
+ShippingAddressLine2
+ShippingAddressPostalCode
+ShippingAddressState
+ShippingCarrier
+ShippingName
+ShippingPhone
+ShippingTrackingNumber
+SourceAggregate
+SourceTransfer
+StatementDescriptor
+Status
+Transfer
+TransferDataAmount
+TransferDataDestination
+TransferGroup
+StatementDescriptorSuffix
+Object
+AmountCaptured
+Application
+FailureBalanceTransaction
+OnBehalfOf
+RadarOptionsSession						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity4">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="1314" width="378.48" x="2605" y="5367"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="314" x="0" y="4">CheckoutSession</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="1264" width="314" x="2" y="31.66796875">Id
+AfterExpirationRecoveryAllowPromotionCodes
+AfterExpirationRecoveryEnabled
+AfterExpirationRecoveryExpiresAt
+AfterExpirationRecoveryUrl
+AllowPromotionCodes
+AmountSubtotal
+AmountTotal
+AutomaticTaxEnabled
+AutomaticTaxStatus
+BillingAddressCollection
+CancelUrl
+ClientReferenceId
+ClientSecret
+ConsentPromotions
+ConsentTermsOfService
+ConsentCollection
+Created
+Currency
+CurrencyConversion
+CustomFields
+CustomTextAfterSubmitMessage
+CustomTextShippingAddressMessage
+CustomTextSubmitMessage
+CustomTextTermsOfAcceptanceMessage
+CustomerId
+CustomerCreation
+CustomerDetailsAddress
+CustomerDetailsEmail
+CustomerDetailsName
+CustomerDetailsPhone
+CustomerDetailsTaxExempt
+CustomerDetailsTaxIds
+CustomerEmail
+ExpiresAt
+InvoiceId
+InvoiceCreation
+Livemode
+Locale
+Metadata
+Mode
+Object
+PaymentIntentId
+PaymentLinkId
+PaymentMethodCollection
+PaymentMethodTypes
+PaymentStatus
+PhoneNumberCollectionEnabled
+RecoveredFrom
+Redaction
+SetupIntent
+ShippingAddressCollectionAllowedCountries
+ShippingCost
+ShippingDetails
+ShippingOptions
+Status
+SubmitType
+SubscriptionId
+SuccessUrl
+TotalDetails
+UiMode
+Url
+ReturnUrl
+LineItemsAggregate						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity5">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="354" width="160.0" x="3283" y="4657"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="156" x="0" y="4">Coupons</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="304" width="156" x="2" y="31.66796875">Id
+CreatedAt
+Currency
+Duration
+DurationInMonths
+AmountOff
+PercentOff
+Valid
+MaxRedemptions
+RedeemBy
+MetadataAggregate
+TimesRedeemed
+Object
+AppliesTo
+Livemode
+Name						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity6">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="594" width="253.44" x="3806" y="5382"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="212" x="0" y="4">CreditNotes</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="544" width="212" x="2" y="31.66796875">Id
+Amount
+AmountShipping
+Created
+Currency
+CustomerId
+CustomerBalanceTransaction
+DiscountAmounts
+EffectiveAt
+InvoiceId
+Lines
+Livemode
+Memo
+Metadata
+Number
+OutOfBandAmount
+Pdf
+Reason
+Refund
+ShippingCost
+Status
+Subtotal
+SubtotalExcludingTax
+TaxAmounts
+Total
+TotalExcludingTax
+Type
+VoidedAt						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity7">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="1094" width="328.84" x="4328" y="2314"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="273" x="0" y="4">Customers</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="1044" width="273" x="2" y="31.66796875">Id
+AddressAggregate
+Balance
+Created
+Currency
+DefaultSource
+Delinquent
+CouponId
+Description
+Email
+Livemode
+MetadataAggregate
+Name
+Phone
+ShippingAggregate
+TaxExempt
+InvoicePrefix
+NextInvoiceSequence
+TestClock
+PreferredLocales
+InvoiceSettingsCustomFieldsAggregate
+InvoiceSettingsDefaultPaymentMethod
+InvoiceSettingsFooter
+TaxIdsAggregate
+DiscountId
+DiscountCheckoutSession
+DiscountCustomer
+DiscountStart
+DiscountEnd
+DiscountInvoice
+DiscountInvoiceItem
+DiscountPromotionCode
+DiscountSubscription
+DiscountCouponCreatedAt
+DiscountCouponCurrency
+DiscountCouponName
+DiscountCouponDuration
+DiscountCouponDurationInMonths
+DiscountCouponAmountOff
+DiscountCouponPercentOff
+DiscountCouponValid
+DiscountCouponMaxRedemptions
+DiscountCouponRedeemBy
+DiscountCouponTimesRedeemed
+DiscountCouponObject
+DiscountCouponLiveMode
+DiscountCouponMetadataAggregate
+SourcesAggregate
+TaxAutomaticTax
+TaxIPAddress
+TaxCountry
+TaxState
+TaxSource						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity8">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="954" width="339.84" x="5544" y="5318"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="284" x="0" y="4">Disputes</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="904" width="284" x="2" y="31.66796875">Id
+Currency
+EvidenceAccessActivityLog
+EvidenceBillingAddress
+EvidenceCancellationPolicy
+EvidenceCancellationPolicyDisclosure
+EvidenceCancellationRebuttal
+EvidenceCustomerCommunication
+EvidenceCustomerEmailAddress
+EvidenceCustomerName
+EvidenceCustomerPurchaseIp
+EvidenceCustomerSignature
+EvidenceDuplicateChargeDocumentation
+EvidenceDuplicateChargeExplanation
+EvidenceDuplicateChargeId
+EvidenceProductDescription
+EvidenceReceipt
+EvidenceRefundPolicy
+EvidenceRefundPolicyDisclosure
+EvidenceRefundRefusalExplanation
+EvidenceServiceDate
+EvidenceServiceDocumentation
+EvidenceShippingAddress
+EvidenceShippingCarrier
+EvidenceShippingDate
+EvidenceShippingDocumentation
+EvidenceShippingTrackingNumber
+EvidenceUncategorizedFile
+EvidenceUncategorizedText
+EvidenceDetailsDueBy
+EvidenceDetailsHasEvidence
+EvidenceDetailsPastDue
+EvidenceDetailsSubmissionCount
+Amount
+BalanceTransactionsAggregate
+Charge
+Created
+IsChargeRefundable
+Livemode
+Reason
+Status
+MetadataAggregate
+Transaction
+Object
+PaymentIntent
+PaymentMethodDetails						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity9">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="534" width="188.92" x="5383" y="3421"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="159" x="0" y="4">InvoiceItems</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="484" width="159" x="2" y="31.66796875">Id
+InvoiceId
+Amount
+Customer
+Currency
+Date
+Description
+Discountable
+LiveMode
+PeriodStart
+PeriodEnd
+PlanId
+PlanAggregate
+PriceId
+PriceAggregate
+Proration
+Quantity
+Subscription
+SubscriptionItems
+TestClock
+UnitAmount
+UnitAmountDecimal
+MetadataAggregate
+DiscountsAggregate
+TaxRatesAggregate						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity10">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="1614" width="335.72" x="6256" y="2008"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="277" x="0" y="4">Invoices</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="1564" width="277" x="2" y="31.66796875">Id
+CustomerId
+AccountCountry
+AccountName
+AccountTaxRates
+AmountDue
+AmountPaid
+AmountRemaining
+Application
+ApplicationFeeAmount
+AttemptCount
+Attempted
+AutomaticTaxEnabled
+AutomaticTaxStatus
+BillingReason
+CollectionMethod
+Charge
+AutoAdvance
+Currency
+Created
+Description
+DefaultPaymentMethod
+DefaultSource
+DefaultTaxRates
+DiscountName
+DiscountAmount
+CouponId
+Discounts
+DueDate
+EndingBalance
+InvoicePdf
+Footer
+LastFinalizationError
+HostedInvoiceUrl
+Livemode
+MetadataAggregate
+CustomFieldsAggregate
+NextPaymentAttempt
+Number
+OnBehalfOf
+Paid
+PaidOutOfBand
+PaymentIntent
+PaymentMethodOptions
+PaymentMethodTypes
+PostPaymentCreditNotesAmount
+PrePaymentCreditNotesAmount
+Quote
+PeriodEnd
+PeriodStart
+ReceiptNumber
+StartingBalance
+StatementDescriptor
+Status
+Subscription
+StatusTransitionsFinalizedAt
+StatusTransitionsMarkedUncollectibleAt
+StatusTransitionsPaidAt
+StatusTransitionsVoidedAt
+Subtotal
+Tax
+TestClock
+Total
+TotalDiscountAmounts
+TotalTaxAmounts
+TransferDataAmount
+TransferDataDestination
+WebhooksDeliveredAt
+AmountShipping
+ShippingDetails
+ShippingCost
+CustomerAddress
+CustomerEmail
+CustomerName
+CustomerPhone
+CustomerShipping
+CustomerTaxExempt
+CustomerTaxIds
+EffectiveAt						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity11">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="1234" width="357.15999999999997" x="6979" y="5285"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="297" x="0" y="4">PaymentIntent</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="1184" width="297" x="2" y="31.66796875">Id
+Amount
+AmountDetailsTip
+AmountCapturable
+AmountReceived
+ApplicationFeeAmount
+AutomaticPaymentMethodsEnabled
+AutomaticPaymentMethodsAllowRedirects
+CanceledAt
+CancellationReason
+CaptureMethod
+ClientSecret
+ConfirmationMethod
+Created
+Currency
+Application
+Customer
+LatestCharge
+PaymentMethod
+TransferDataDestination
+OnBehalfOf
+Invoice
+Review
+Description
+LastPaymentErrorCharge
+LastPaymentErrorCode
+LastPaymentErrorDeclineCode
+LastPaymentErrorDocURL
+LastPaymentErrorMessage
+LastPaymentErrorParam
+LastPaymentErrorPaymentMethod
+LastPaymentErrorPaymentMethodType
+LastPaymentErrorType
+LiveMode
+NextAction
+Object
+PaymentMethodOptions
+PaymentMethodTypes
+PaymentMethodConfigurationDetailsId
+PaymentMethodConfigurationDetailsParent
+ProcessingCard
+ProcessingType
+ReceiptEmail
+MetadataAggregate
+SetupFutureUsage
+ShippingAddressCity
+ShippingAddressCountry
+ShippingAddressline1
+ShippingAddressline2
+ShippingAddressPostalCode
+ShippingAddressState
+ShippingCarrier
+ShippingName
+ShippingPhone
+ShippingTrackingNumber
+StatementDescriptor
+StatementDescriptorSuffix
+Status
+TransferDataAmount
+TransferGroup						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity12">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="814" width="484.32" x="2222" y="3352"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="404" x="0" y="4">PaymentLinks</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="764" width="404" x="2" y="31.66796875">Id
+Active
+AfterCompletionHostedConfirmationCustomMessage
+AfterCompletionType
+AfterCompletionRedirectURL
+AllowPromotionCodes
+ApplicationFeeAmount
+ApplicationFeePercent
+AutomaticTaxEnabled
+BillingAddressCollection
+ConsentCollectionPromotions
+ConsentCollectionTermsOfService
+ConsentCollectionPaymentMethodResuseAgreementPosition
+Currency
+CustomTextShippingAddressMessage
+CustomTextSubmitMessage
+CustomTextAfterSubmitMessage
+CustomTextTermsOfServiceAcceptanceMessage
+CustomerCreation
+Livemode
+Object
+OnBehalfOf
+MetadataAggregate
+PaymentIntentDataCaptureMethod
+PaymentIntentDataSetupFutureUsage
+PaymentMethodCollection
+PaymentMethodTypes
+PhoneNumberberCollectionEnabled
+ShippingAddressCollectionAllowedCountries
+ShippingOptions
+SubmitType
+SubscriptionDataDescription
+SubscriptionDataTrialPeriodDays
+TaxIdCollectionEnabled
+TransferDataDestination
+TransferDataAmount
+Url
+LineItems
+CustomFieldsAggregate						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity13">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="1814" width="372.6" x="7554" y="4557"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="311" x="0" y="4">PaymentMethods</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="1764" width="311" x="2" y="31.66796875">Id
+CustomerId
+BillingDetailsAddressCity
+BillingDetailsAddressCountry
+BillingDetailsAddressLine1
+BillingDetailsAddressLine2
+BillingDetailsAddressPostalCode
+BillingDetailsAddressState
+BillingDetailsEmail
+BillingDetailsName
+BillingDetailsPhone
+MetadataAggregate
+Type
+Object
+AcssDebitBankName
+AcssDebitFingerprint
+AcssDebitInstitutionNumber
+AcssDebitLast4
+AcssDebitTransitNumber
+Affirm
+AfterpayClearpay
+Alipay
+AuBecsDebitBsbNumber
+AuBecsDebitFingerprint
+AuBecsDebitLast4
+BacsDebitSortCode
+BacsDebitLast4
+BacsDebitFingerprint
+Bancontact
+Blik
+CardBrand
+CardChecksAddressLine1Check
+CardChecksAddressPostalCodeCheck
+CardChecksCvcCheck
+CardCountry
+CardExpMonth
+CardExpYear
+CardFingerprint
+CardFunding
+CardGeneratedFrom
+CardLast4
+CardNetworksAvailable
+CardNetworksPreferred
+CardThreeDSecureUsageSupported
+CardWallet
+CashAppBuyerId
+CashAppCashTag
+CustomerBalance
+EpsBank
+FpxAccountHolderType
+FpxBank
+GIROPAY
+Grabpay
+IdealBank
+IdealBic
+Konbini
+Link
+Oxxo
+P24Bank
+Paynow
+Paypal
+Pix
+Promptpay
+RevolutPay
+SepaDebitBankCode
+SepaDebitBranchCode
+SepaDebitCountry
+SepaDebitFingerprint
+SepaDebitGeneratedFromCharge
+SepaDebitGeneratedFromSetupAttempt
+SepaDebitLast4
+SofortCountry
+UsBankAccountAccountHolderType
+UsBankAccountAccountType
+UsBankAccountBankName
+UsBankAccountFinancialConnectionsAccount
+UsBankAccountFingerprint
+UsBankAccountLast4
+UsBankAccountNetworksPreferred
+UsBankAccountNetworksSupported
+UsBankAccountRoutingNumber
+UsBankAccountStatusDetails
+WechatPay
+Zip
+Created
+Livemode
+PaypalPayerId
+PaypalPayerEmail
+RadarOptionsSession						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity14">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="494" width="233.0" x="1855" y="285"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="193" x="0" y="4">Payouts</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="444" width="193" x="2" y="31.66796875">Id
+Object
+Amount
+ArrivalDate
+BalanceTransaction
+Created
+Currency
+Description
+Destination
+FailureBalanceTransaction
+FailureCode
+FailureMessage
+Metadata
+Method
+SourceType
+StatementDescriptor
+Status
+Type
+Automatic
+Livemode
+OriginalPayout
+ReversedBy
+ReconciliationStatus						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity15">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="1314" width="372.04" x="1630" y="5375"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="309" x="0" y="4">Persons</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="1244" width="309" x="2" y="31.66796875">Id
+Account
+Created
+DobDay
+DobMonth
+DobYear
+Email
+FirstName
+LastName
+MaidenName
+FutureRequirementsAlternatives
+FutureRequirementsCurrentlyDue
+FutureRequirementsErrors
+FutureRequirementsEventuallyDue
+FutureRequirementsPastDue
+FutureRequirementsPendingVerification
+IdNumber
+IdNumberProvided
+IdNumberSecondaryProvided
+Metadata
+RelationshipDirector
+RelationshipExecutive
+RelationshipLegalGuardian
+RelationshipOwner
+RelationshipPercentOwnership
+RelationshipRepresentative
+RelationshipTitle
+RequirementsAlternatives
+RequirementsCurrentlyDue
+RequirementsErrors
+RequirementsEventuallyDue
+RequirementsPastDue
+RequirementsPendingVerification
+SsnLas4Provided
+VerificationAdditionalDocumentBack
+VerificationAdditionalDocumentDetails
+VerificationAdditionalDocumentDetailsCode
+VerificationAdditionalDocumentFront
+VerificationDetails
+VerificationDetailsCode
+VerificationDocumentBack
+VerificationDocumentDetails
+VerificationDocumentDetailsCode
+VerificationDocumentFront
+VerificationStatus
+AddressCity
+AddressCountry
+AddressLine1
+AddressLine2
+AddressPostalCode
+AddressState
+Phone
+AdditionalTosAcceptancesAccountDate
+AdditionalTosAcceptancesAccountIp
+AdditionalTosAcceptancesAccountUserAgent
+Gender
+Nationality
+PoliticalExposure
+RegisteredAddressCity
+RegisteredAddressCountry
+RegisteredAddressLine1
+RegisteredAddressLine2
+RegisteredAddressPostalCode
+RegisteredAddressState						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity16">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="574" width="251.44" x="5494" y="1002"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="210" x="0" y="4">Plans</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="524" width="210" x="2" y="31.66796875">Id
+Active
+Amount
+AmountDecimal
+UnitAmount
+AggregateUsage
+BillingScheme
+Created
+Currency
+Nickname
+ProductId
+ProductName
+ProductActive
+ProductMetadata
+ProductStatementDescriptor
+ProductTaxCode
+ProductUnitLabel
+LiveMode
+Interval
+IntervalCount
+TrialPeriodDays
+MetadataAggregate
+TiersAggregate
+TiersMode
+TransformUsageDivideBy
+TransformUsageRound
+UsageType						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity17">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="694" width="285.2" x="6217" y="267"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="238" x="0" y="4">Prices</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="644" width="238" x="2" y="31.66796875">Id
+Active
+BillingScheme
+Created
+Currency
+CustomUnitAmountEnabled
+CustomUnitAmountMaximum
+CustomUnitAmountMinimum
+CustomUnitAmountPreset
+LookupKey
+MetadataAggregate
+Nickname
+Product
+ProductDataName
+ProductDataActive
+ProductDataMetadata
+ProductDataStatementDescriptor
+ProductDataTaxCode
+ProductDataUnitLabel
+RecurringInterval
+RecurringAggregateUsage
+RecurringIntervalCount
+RecurringUsageType
+Type
+TiersAggregate
+TiersMode
+TransformQuantityDivideBy
+TransformQuantityRound
+UnitAmount
+UnitAmountDecimal
+Object
+Livemode
+TaxBehavior						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity18">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="514" width="236.12" x="7109" y="300"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="199" x="0" y="4">Products</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="464" width="199" x="2" y="31.66796875">Id
+Active
+FeaturesAggregate
+AttributesAggregate
+Caption
+Created
+DefaultPrice
+Description
+Name
+PackageDimensionsHeight
+PackageDimensionsLength
+PackageDimensionsWeight
+PackageDimensionsWidth
+Shippable
+StatementDescriptor
+Updated
+Type
+Url
+TaxCode
+Livemode
+MetadataAggregate
+Object
+UnitLabel
+Images						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity19">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="614" width="316.52" x="4376" y="5363"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="265" x="0" y="4">PromotionCodes</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="564" width="265" x="2" y="31.66796875">Id
+Active
+Code
+CouponAmountOff
+CouponCreated
+CouponCurrency
+CouponDuration
+CouponDurationInMonths
+CouponId
+CouponLivemode
+CouponMaxRedemptions
+CouponMetadata
+CouponName
+CouponPercentOff
+CouponRedeemBy
+CouponTimesRedeemed
+CouponAppliesToProducts
+CouponValid
+Created
+Customer
+ExpiresAt
+Livemode
+MaxRedemptions
+Metadata
+RestrictionsCurrencyOptions
+RestrictionsFirstTimeTransaction
+RestrictionsMinimumAmount
+RestrictionsMinimumAmountCurrency
+TimesRedeemed						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity20">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="954" width="379.04" x="6225" y="5301"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="316" x="0" y="4">Quotes</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="904" width="316" x="2" y="31.66796875">Id
+AmountSubtotal
+AmountTotal
+Application
+ApplicationFeeAmount
+ApplicationFeePercent
+AutomaticTaxEnabled
+AutomaticTaxStatus
+CollectionMethod
+ComputedRecurring
+ComputedUpfrontAmountSubtotal
+ComputedUpfrontAmountTotal
+ComputedUpfrontTotalDetailsAmountDiscount
+ComputedUpfrontTotalDetailsAmountShipping
+ComputedUpfrontTotalDetailsAmountTax
+Created
+Currency
+CustomerId
+DefaultTaxRates
+Description
+Discounts
+ExpiresAt
+Footer
+FromQuote
+Header
+InvoiceId
+InvoiceSettingsDaysUntilDue
+Livemode
+LineItems
+Metadata
+Number
+OnBehalfOf
+Status
+StatusTransitionsAcceptedAt
+StatusTransitionsCanceledAt
+StatusTransitionsFinalizedAt
+Subscription
+SubscriptionDataDescription
+SubscriptionDataEffectiveDate
+SubscriptionDataTrialPeriodDays
+SubscriptionSchedule
+TestClock
+TotalDetailsAmountDiscount
+TotalDetailsAmountShipping
+TotalDetailsAmountTax
+TransferData						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity21">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="414" width="233.0" x="769" y="6133"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="193" x="0" y="4">Refunds</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="364" width="193" x="2" y="31.66796875">Id
+Charge
+Amount
+Status
+BalanceTransaction
+Created
+Currency
+Reason
+ReceiptNumber
+MetadataAggregate
+Description
+PaymentIntent
+Object
+FailureBalanceTransaction
+FailureReason
+NextAction
+SourceTransferReversal
+TransferReversal
+InstructionsEmail						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity22">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="354" width="272.32" x="3103" y="3551"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="228" x="0" y="4">ShippingRates</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="304" width="228" x="2" y="31.66796875">Id
+Active
+Created
+DeliveryEstimateMaximumUnit
+DeliveryEstimateMaximumValue
+DeliveryEstimateMinimumUnit
+DeliveryEstimateMinimumValue
+DisplayName
+FixedAmountAmount
+FixedAmountCurrency
+Livemode
+MetadataAggregate
+Object
+TaxBehavior
+TaxCode
+Type						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity23">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="234" width="240.0" x="5523" y="447"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="200" x="0" y="4">SubscriptionItems</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="184" width="200" x="2" y="31.66796875">Id
+SubscriptionId
+PlanId
+Quantity
+Created
+MetadataAggregate
+PriceId
+Object
+BillingThresholdsUsageGte
+TaxRatesAggregate						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity24">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="1454" width="343.28" x="4309" y="283"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="286" x="0" y="4">Subscriptions</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="1404" width="286" x="2" y="31.66796875">Id
+CustomerId
+PlanId
+ApplicationFeePercent
+CancelAtPeriodEnd
+CanceledAt
+CreatedAt
+CurrentPeriodEnd
+CurrentPeriodStart
+CouponId
+EndedAt
+Quantity
+StartDate
+Status
+TaxPercent
+TrialEnd
+TrialStart
+MetadataAggregate
+BillingCycleAnchor
+DefaultPaymentMethod
+ItemsAggregate
+LatestInvoice
+PendingSetupIntent
+PendingUpdate
+BillingThresholds
+AutomaticTaxEnabled
+CollectionMethod
+DaysUntilDue
+DefaultSource
+DefaultTaxRates
+LiveMode
+NextPendingInvoiceItemInvoice
+PauseCollectionBehavior
+PauseCollectionResumesAt
+PaymentSettings
+PendingInvoiceItemInterval
+PendingInvoiceItemIntervalCount
+Schedule
+TestClock
+TransferData
+CancelAt
+Description
+CancellationDetailsComment
+CancellationDetailsFeedback
+CancellationDetailsReason
+Currency
+TrialSettingsEndBehaviorPaymentMethod
+OnBehalfOf
+DiscountId
+DiscountCheckoutSession
+DiscountCustomer
+DiscountStart
+DiscountEnd
+DiscountInvoice
+DiscountInvoiceItem
+DiscountPromotionCode
+DiscountSubscription
+DiscountCouponCreatedAt
+DiscountCouponCurrency
+DiscountCouponName
+DiscountCouponDuration
+DiscountCouponDurationInMonths
+DiscountCouponAmountOff
+DiscountCouponPercentOff
+DiscountCouponValid
+DiscountCouponMaxRedemptions
+DiscountCouponRedeemBy
+DiscountCouponTimesRedeemed
+DiscountCouponObject
+DiscountCouponLiveMode
+DiscountCouponMetadataAggregate						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity25">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="314" width="189.36" x="6520" y="4589"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="158" x="0" y="4">TaxRates</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="264" width="158" x="2" y="31.66796875">Id
+Active
+Country
+Created
+Description
+DisplayName
+EffectivePercentage
+Inclusive
+Jurisdiction
+Livemode
+Metadata
+Percentage
+State
+TaxType						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity26">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="334" width="223.56" x="7039" y="4564"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="185" x="0" y="4">TopUps</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="284" width="185" x="2" y="31.66796875">Id
+Amount
+BalanceTransaction
+Created
+Currency
+Description
+ExpectedAvailabilityDate
+FailureCode
+FailureMessage
+Livemode
+Metadata
+Source
+StatementDescriptor
+Status
+TransferGroup						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity27">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="254" width="238.56" x="2142" y="4692"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="200" x="0" y="4">TransferReversals</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="184" width="200" x="2" y="31.66796875">Id
+Transfer
+Amount
+RefundApplicationFee
+Currency
+Metadata
+Object
+BalanceTransaction
+DestinationPaymentRefund
+Created
+SourceRefund						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity28">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="514" width="193.36" x="794" y="5375"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="162" x="0" y="4">Transfers</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="464" width="162" x="2" y="31.66796875">Id
+Currency
+Amount
+AmountReversed
+ApplicationFee
+BalanceTransaction
+Created
+Date
+Description
+Destination
+DestinationPayment
+FailureCode
+FailureMessage
+Reversed
+SourceTransaction
+SourceType
+StatementDescriptor
+Status
+Type
+MetadataAggregate
+Object
+Livemode
+ReversalsAggregate
+TransferGroup						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity29">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="214" width="142.0" x="5045" y="4624"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="138" x="0" y="4">UsageRecords</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="164" width="138" x="2" y="31.66796875">Id
+Invoice
+Livemode
+PeriodEnd
+PeriodStart
+Quantity
+SubscriptionItem
+Timestamp
+TotalUsage						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity30">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="154" width="118.0" x="331" y="4716"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="114" x="0" y="4">ValueListItems</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="104" width="114" x="2" y="31.66796875">Id
+Created
+CreatedBy
+Livemode
+Value
+ValueList						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity31">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="214" width="112.0" x="1703" y="4705"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="108" x="0" y="4">ValueLists</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="164" width="108" x="2" y="31.66796875">Id
+Alias
+Created
+CreatedBy
+ItemType
+ListItemsUrl
+Livemode
+Name
+Metadata						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity32">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="134" width="248.44" x="3778" y="4646"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="207" x="0" y="4">AvailableBalance</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="104" width="207" x="2" y="31.66796875">Currency
+Amount
+SourceTypesCard
+SourceTypesBankAccount
+SourceTypesBitcoinReceiver						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity33">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="254" width="352.72" x="706" y="1086"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="294" x="0" y="4">BalanceChangeFromActivitySummaryReport</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="224" width="294" x="2" y="31.66796875">Reporting_Category
+Currency
+Count
+Gross
+Fee
+Net
+Id
+ParametersIntervalEnd
+ParametersIntervalStart
+ParametersColumns
+ParametersCurrency						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity34">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="234" width="216.12" x="284" y="1434"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="179" x="0" y="4">BalanceSummaryReport</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="204" width="179" x="2" y="31.66796875">Category
+Description
+Net_Amount
+Currency
+Id
+ParametersIntervalEnd
+ParametersIntervalStart
+ParametersColumns
+ParametersCurrency
+ParametersTimezone						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity35">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="314" width="193.36" x="2385" y="158"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="162" x="0" y="4">BalanceTransactions</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="284" width="162" x="2" y="31.66796875">Id
+Amount
+AvailableOn
+Created
+Currency
+Description
+Fee
+FeeDetailsAggregate
+Net
+Source
+Status
+Type
+ReportingCategory
+ExchangeRate						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity36">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="174" width="368.15999999999997" x="4324" y="4629"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="308" x="0" y="4">CountrySpecs</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="144" width="308" x="2" y="31.66796875">Id
+SupportedBankAccountCurrenciesAggregate
+SupportedPaymentCurrenciesAggregate
+SupportedPaymentMethodsAggregate
+VerificationFieldsAggregate
+SupportedTransferCurrenciesAggregate
+DefaultCurrency						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity37">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="594" width="270.76" x="5471" y="1955"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="225" x="0" y="4">CustomerSubscriptions</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="564" width="225" x="2" y="31.66796875">Id
+CustomerId
+PlanId
+ApplicationFeePercent
+AutomaticTaxEnabled
+BillingCycleAnchor
+BillingThreshold
+CanceledAt
+CurrentPeriodEnd
+CurrentPeriodStart
+Currency
+Description
+DaysUntilDue
+DefaultSource
+DefaultTaxRates
+EndedAt
+Quantity
+Schedule
+TestClock
+TransferData
+MetadataAggregate
+LiveMode
+LatestInvoice
+NextPendingInvoiceItemInvoice
+PauseCollection
+PaymentSettings
+PendingSetupIntent
+PendingUpdate						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity38">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="174" width="144.0" x="1279" y="4715"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="140" x="0" y="4">EarlyFraudWarning</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="144" width="140" x="2" y="31.66796875">Id
+Actionable
+ChargeId
+Created
+FraudType
+Livemode
+PaymentIntentId						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity39">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="234" width="358.6" x="1888" y="2139"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="297" x="0" y="4">EndingBalanceReconciliationSummaryReport</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="204" width="297" x="2" y="31.66796875">Reporting_Category
+Currency
+Count
+Gross
+Fee
+Net
+Id
+ParametersIntervalEnd
+ParametersColumns
+ParametersCurrency						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity40">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="254" width="177.92" x="6000" y="4595"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="148" x="0" y="4">Events</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="224" width="148" x="2" y="31.66796875">Id
+ApiVersion
+Created
+ObjectId
+ObjectName
+Livemode
+PendingWebhooks
+Request
+Type
+Description
+PreviousAttributes						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity41">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="234" width="96.0" x="5563" y="4604"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="92" x="0" y="4">Files</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="204" width="92" x="2" y="31.66796875">Id
+Created
+ExpiresAt
+Filename
+Links
+Purpose
+Size
+Title
+Type
+Url						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity42">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="414" width="226.68" x="7278" y="2588"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="191" x="0" y="4">InvoiceDiscounts</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="384" width="191" x="2" y="31.66796875">Id
+InvoiceId
+Customer
+Start
+End
+Coupon
+CouponAmountOff
+CouponCurrency
+CouponName
+CouponCreatedAt
+CouponDuration
+CouponDurationInMonths
+CouponPercentOff
+CouponRedeemBy
+CouponTimesRedeemed
+CouponValid
+CouponMaxRedemptions
+PromotionCode
+Subscription						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity43">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="414" width="226.68" x="4438" y="3766"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="191" x="0" y="4">InvoiceItemDiscounts</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="384" width="191" x="2" y="31.66796875">Id
+InvoiceItemId
+Customer
+Start
+End
+Coupon
+CouponAmountOff
+CouponCurrency
+CouponName
+CouponCreatedAt
+CouponDuration
+CouponDurationInMonths
+CouponPercentOff
+CouponRedeemBy
+CouponTimesRedeemed
+CouponValid
+CouponMaxRedemptions
+PromotionCode
+Subscription						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity44">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="414" width="229.56" x="2124" y="5364"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="191" x="0" y="4">InvoiceLineItemDiscounts</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="384" width="191" x="2" y="31.66796875">Id
+InvoiceId
+CustomerId
+Start
+End
+CouponId
+CouponAmountOff
+CouponCurrency
+CouponName
+CouponCreatedAt
+CouponDuration
+CouponDurationInMonths
+CouponPercentOff
+CouponRedeemBy
+CouponTimesRedeemed
+CouponValid
+CouponMaxRedemptions
+PromotionCode
+Subscription						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity45">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="894" width="244.56" x="5036" y="5332"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="206" x="0" y="4">InvoiceLineItems</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="864" width="206" x="2" y="31.66796875">Id
+InvoiceId
+Amount
+AmountExcludingTax
+Currency
+Description
+Discountable
+InvoiceItem
+LiveMode
+Metadata
+Object
+PeriodEnd
+PeriodStart
+PriceId
+PriceObject
+PriceActive
+PriceBillingScheme
+PriceCreated
+PriceCurrency
+PriceCustomUnitAmount
+PriceLiveMode
+PriceLookupKey
+PriceMetadata
+PriceNickname
+PriceProduct
+PriceRecurring
+PriceTaxBehavior
+PriceTiersMode
+PriceTransformQuantity
+PriceType
+PriceUnitAmount
+PriceUnitAmountDecimal
+Proration
+ProrationDetails
+Quantity
+Subscription
+SubscriptionItems
+Type
+UnitAmountExcludingTax
+DiscountAmountsAggregate
+TaxAmountsAggregate
+TaxRatesAggregate
+DiscountsAggregate						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity46">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="1094" width="348.15999999999997" x="634" y="1642"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="288" x="0" y="4">ItemizedBalanceChangeFromActivityReport</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="1064" width="288" x="2" y="31.66796875">Automatic_Payout_Id
+Automatic_Payout_Effective_At
+Balance_Transaction_Id
+Created_UTC
+Created
+Available_On_UTC
+Available_On
+Currency
+Gross
+Fee
+Net
+Reporting_Category
+Source_Id
+Description
+Customer_Facing_Amount
+Customer_Facing_Currency
+Automatic_Payout_Effective_At_UTC
+Customer_Id
+Customer_Email
+Customer_Name
+Customer_Description
+Shipping_Address_Line1
+Shipping_Address_Line2
+Shipping_Address_City
+Shipping_Address_State
+Shipping_Address_Postal_Code
+Shipping_Address_Country
+Charge_Id
+Payment_Intent_Id
+Charge_Created_UTC
+Charge_Created
+Invoice_Id
+Subscription_Id
+Payment_Method_Type
+Card_Brand
+Card_Funding
+Card_Country
+Statement_Descriptor
+Dispute_Reason
+Connected_Account_Id
+Connected_Account_Name
+Connected_Account_Country
+Regulatory_Tag
+Payment_Metadata
+Refund_Metadata
+Transfer_Metadata
+Id
+ParametersIntervalEnd
+ParametersIntervalStart
+ParametersColumns
+ParametersCurrency
+ParametersReportingCategory
+ParametersTimezone						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity47">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="1074" width="355.04" x="1100" y="2187"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="292" x="0" y="4">ItemizedEndingBalanceReconciliationReport</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="1044" width="292" x="2" y="31.66796875">Balance_Transaction_Id
+Created_UTC
+Created
+Available_On_UTC
+Available_On
+Currency
+Gross
+Fee
+Net
+Reporting_Category
+Source_Id
+Description
+Customer_Facing_Amount
+Customer_Facing_Currency
+Automatic_Payout_Id
+Automatic_Payout_Effective_At_UTC
+Automatic_Payout_Effective_At
+Customer_Id
+Customer_Email
+Customer_Name
+Customer_Description
+Shipping_Address_Line1
+Shipping_Address_Line2
+Shipping_Address_City
+Shipping_Address_State
+Shipping_Address_Postal_Code
+Shipping_Address_Country
+Charge_Id
+Payment_Intent_Id
+Charge_Created_UTC
+Charge_Created
+Invoice_Id
+Subscription_Id
+Payment_Method_Type
+Card_Brand
+Card_Funding
+Card_Country
+Statement_Descriptor
+Dispute_Reason
+Connected_Account_Id
+Connected_Account_Name
+Connected_Account_Country
+Regulatory_Tag
+Payment_Metadata
+Refund_Metadata
+Transfer_Metadata
+Id
+ParametersIntervalEnd
+ParametersColumns
+ParametersCurrency
+ParametersReportingCategory
+ParametersTimezone						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity48">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="1094" width="312.96" x="2282" y="1602"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="260" x="0" y="4">ItemizedPayoutReconciliationReport</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="1064" width="260" x="2" y="31.66796875">Balance_Transaction_Id
+Created_UTC
+Created
+Available_On_UTC
+Available_On
+Currency
+Gross
+Fee
+Net
+Reporting_Category
+Source_Id
+Description
+Customer_Facing_Amount
+Customer_Facing_Currency
+Automatic_Payout_Id
+Automatic_Payout_Effective_At_UTC
+Automatic_Payout_Effective_At
+Customer_Id
+Customer_Email
+Customer_Name
+Customer_Description
+Shipping_Address_Line1
+Shipping_Address_Line2
+Shipping_Address_City
+Shipping_Address_State
+Shipping_Address_Postal_Code
+Shipping_Address_Country
+Charge_Id
+Payment_Intent_Id
+Charge_Created_UTC
+Charge_Created
+Invoice_Id
+Subscription_Id
+Payment_Method_Type
+Card_Brand
+Card_Funding
+Card_Country
+Statement_Descriptor
+Dispute_Reason
+Connected_Account_Id
+Connected_Account_Name
+Connected_Account_Country
+Regulatory_Tag
+Payment_Metadata
+Refund_Metadata
+Transfer_Metadata
+Id
+ParametersIntervalEnd
+ParametersIntervalStart
+ParametersColumns
+ParametersCurrency
+ParametersReportingCategory
+ParametersTimezone						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity49">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="534" width="267.32" x="2278" y="912"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="223" x="0" y="4">ItemizedPayoutsReport</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="504" width="223" x="2" y="31.66796875">Payout_Id
+Effective_At_UTC
+Effective_At
+Currency
+Gross
+Fee
+Net
+Reporting_Category
+Balance_Transaction_Id
+Description
+Payout_Expected_Arrival_Date
+Payout_Status
+Payout_Reversed_At_UTC
+Payout_Reversed_At
+Payout_Type
+Payout_Description
+Payout_Destination_Id
+Regulatory_Tag
+Id
+ParametersIntervalEnd
+ParametersIntervalStart
+ParametersColumns
+ParametersCurrency
+ParametersReportingCategory
+ParametersTimezone						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity50">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="974" width="376.36" x="232" y="46"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="309" x="0" y="4">ItemizedReconciliationForASinglePayoutReport</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="944" width="309" x="2" y="31.66796875">Balance_Transaction_Id
+Created_UTC
+Created
+Available_On_UTC
+Available_On
+Currency
+Gross
+Fee
+Net
+Reporting_Category
+Source_Id
+Description
+Customer_Facing_Amount
+Customer_Facing_Currency
+Automatic_Payout_Id
+Automatic_Payout_Effective_At_UTC
+Automatic_Payout_Effective_At
+Customer_Id
+Customer_Email
+Customer_Name
+Customer_Description
+Shipping_Address_Line1
+Shipping_Address_Line2
+Shipping_Address_City
+Shipping_Address_State
+Shipping_Address_Postal_Code
+Shipping_Address_Country
+Charge_Id
+Payment_Intent_Id
+Charge_Created_UTC
+Charge_Created
+Invoice_Id
+Subscription_Id
+Payment_Method_Type
+Card_Brand
+Card_Funding
+Card_Country
+Statement_Descriptor
+Dispute_Reason
+Connected_Account_Id
+Connected_Account_Name
+Connected_Account_Country
+Id
+ParametersColumns
+ParametersPayout
+ParametersReportingCategory
+ParametersTimezone						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity51">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="374" width="242.56" x="3242" y="5401"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="204" x="0" y="4">Orders</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="344" width="204" x="2" y="31.66796875">Id
+Amount
+Application
+ApplicationFee
+Created
+Charge
+Currency
+Customer
+Email
+ExternalCouponCode
+ItemsAggregate
+SelectedShippingMethod
+Shipping
+ShippingMethodsAggregate
+Status
+StatusTransitions
+Updated						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity52">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="594" width="222.68" x="1500" y="3507"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="187" x="0" y="4">PaymentLinkLineItems</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="564" width="187" x="2" y="31.66796875">Id
+PaymentLinkId
+AmountDiscount
+AmountSubtotal
+AmountTax
+AmountTotal
+Currency
+Description
+Object
+PriceActive
+PriceBillingScheme
+PriceCreated
+PriceCurrency
+PriceCustomUnitAmount
+PriceId
+PriceLivemode
+PriceLookupKey
+PriceNickname
+PriceObject
+PriceProduct
+PriceRecurring
+PriceTaxBehavior
+PriceTiersMode
+PriceTransformQuantity
+PriceType
+PriceUnitAmount
+PriceUnitAmountDecimal
+Quantity						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity53">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="214" width="438.0" x="974" y="724"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="362" x="0" y="4">PayoutsReconciliationSummaryForASinglePayoutReport</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="184" width="362" x="2" y="31.66796875">Reporting_Category
+Currency
+Count
+Gross
+Fee
+Net
+Id
+ParametersColumns
+ParametersPayout						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity54">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="254" width="308.96" x="2648" y="1401"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="256" x="0" y="4">PayoutsReconciliationSummaryReport</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="224" width="256" x="2" y="31.66796875">Reporting_Category
+Currency
+Count
+Gross
+Fee
+Net
+Id
+ParametersIntervalEnd
+ParametersIntervalStart
+ParametersColumns
+ParametersCurrency						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity55">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="254" width="216.12" x="1580" y="2024"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="179" x="0" y="4">PayoutsSummaryReport</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="224" width="179" x="2" y="31.66796875">Reporting_Category
+Currency
+Count
+Gross
+Fee
+Net
+Id
+ParametersIntervalEnd
+ParametersIntervalStart
+ParametersColumns
+ParametersCurrency						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity56">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="154" width="248.44" x="751" y="4716"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="207" x="0" y="4">PendingBalance</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="124" width="207" x="2" y="31.66796875">Currency
+Amount
+SourceTypesAggregate
+SourceTypesCard
+SourceTypesBankAccount
+SourceTypesBitcoinReceiver						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity57">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="634" width="263.88" x="1599" y="1248"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="221" x="0" y="4">Reports</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="604" width="221" x="2" y="31.66796875">Id
+Created
+Error
+Livemode
+Object
+ParametersIntervalEnd
+ParametersIntervalStart
+ParametersColumns
+ParametersConnectedAccount
+ParametersCurrency
+ParametersPayout
+ParametersReportingCategory
+ParametersTimezone
+Report_type
+ResultCreated
+ResultExpiresAt
+ResultFilename
+ResultId
+ResultLinksHas_more
+ResultLinksObject
+ResultLinksUrl
+ResultObject
+ResultPurpose
+ResultSize
+ResultTitle
+ResultType
+ResultUrl
+Status
+Succeeded_at
+ResultLinksDataAggregate						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity58">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="294" width="152.0" x="2707" y="4684"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="148" x="0" y="4">Reviews</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="264" width="148" x="2" y="31.66796875">Id
+BillingZip
+Charge
+ClosedReason
+Created
+IpAddress
+IpAddressLocation
+Livemode
+Open
+OpenedReason
+PaymentIntent
+Reason
+Session						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity59">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="414" width="236.12" x="3234" y="6035"/>
+					<y:Fill color="#ECEBEC" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#ECEBEC" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="199" x="0" y="4">Skus</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="384" width="199" x="2" y="31.66796875">Id
+Active
+AttributesAggregate
+Created
+Currency
+Images
+InventoryQuantity
+InventoryType
+InventoryValue
+PackageDimensionsHeight
+PackageDimensionsLength
+PackageDimensionsWeight
+PackageDimensionsWidth
+Price
+ProductId
+Updated
+Metadata
+Livemode
+Object						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<edge id="edge9-0" source="entity9" target="entity7">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge9-1" source="entity9" target="entity10">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge10-0" source="entity10" target="entity7">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge12-0" source="entity12" target="entity22">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge14-0" source="entity14" target="entity35">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge14-1" source="entity14" target="entity0">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge17-0" source="entity17" target="entity18">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge23-0" source="entity23" target="entity16">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge23-1" source="entity23" target="entity17">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge23-2" source="entity23" target="entity24">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge24-0" source="entity24" target="entity7">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge24-1" source="entity24" target="entity16">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge33-0" source="entity33" target="entity57">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="line" width="1.0"/>
+					<y:Arrows source="none" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge34-0" source="entity34" target="entity57">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="line" width="1.0"/>
+					<y:Arrows source="none" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge37-0" source="entity37" target="entity7">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge37-1" source="entity37" target="entity16">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge39-0" source="entity39" target="entity57">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="line" width="1.0"/>
+					<y:Arrows source="none" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge42-0" source="entity42" target="entity10">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge43-0" source="entity43" target="entity9">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge46-0" source="entity46" target="entity57">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="line" width="1.0"/>
+					<y:Arrows source="none" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge47-0" source="entity47" target="entity57">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="line" width="1.0"/>
+					<y:Arrows source="none" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge48-0" source="entity48" target="entity57">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="line" width="1.0"/>
+					<y:Arrows source="none" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge49-0" source="entity49" target="entity57">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="line" width="1.0"/>
+					<y:Arrows source="none" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge50-0" source="entity50" target="entity57">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="line" width="1.0"/>
+					<y:Arrows source="none" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge50-1" source="entity50" target="entity14">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge52-0" source="entity52" target="entity12">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge53-0" source="entity53" target="entity57">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge53-1" source="entity53" target="entity14">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge54-0" source="entity54" target="entity57">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge55-0" source="entity55" target="entity57">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge57-0" source="entity57" target="entity14">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+	</graph>
+</graphml>
